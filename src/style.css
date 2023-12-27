@@ -1,0 +1,34 @@
+*{margin: 0px;padding: 0px;outline: 0px;direction: ltr;background-color: #00000000;border: 0px;font-size: 1rem;}
+.wn-sb{flex-wrap: wrap;justify-content: space-between;}
+.wcc{flex-wrap: wrap;align-content: center;justify-content: center;}
+.wn-sa{flex-wrap: wrap;justify-content: space-around;}
+.wcn{flex-wrap: wrap;align-content: center;justify-content: flex-start;}
+@font-face {
+    font-family: munro;
+    src: url(font/munro.ttf);
+}
+
+header{width: 100%;height: 60px;float: left;position: fixed;background-color: #ffffff;box-shadow: 0px 0px 2px 1px #dadada;}
+header article{width: 90%;margin: auto;display: flex;}
+.hd-left{height: 60px;float: left;}
+.box-logo, .box-web-name{height: 60px;float: left;display: flex;}
+.logo{height: 40px;float: left;}
+.box-web-name{margin-left: 10px;}
+.name-web{font-size: 30px;font-family: munro;}
+.hd-center{height: 60px;float: left;}
+.select{height: 60px;display: flex;flex-wrap: wrap;gap: 10px;}
+.select li{display: block;height: 60px;float: left;}
+.select li button{height: 60px;padding: 0px 10px;font-family: munro;font-size: 17px;}
+.select li .center{height: 60px;border-top: 4px solid #ffffff;border-bottom: 4px solid #ff3252;}
+.hd-right{height: 60px;display: flex;}
+.conSL{height: 40px;float: left;}
+.btn-hd{height: 40px;background-color: #ff3252;color: #ffffff;font-family: munro;padding: 0px 20px;float: left;font-size: 16px;}
+.hd-right img{width: 18px;float: left;display: none;}
+
+
+
+@media (max-width: 790px) {
+    .conSL , .hd-center{display: none;}
+    .hd-right img{display: block;}
+
+}
